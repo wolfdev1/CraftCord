@@ -17,12 +17,13 @@ public final class CraftCord extends JavaPlugin implements Listener {
             jda = JDABuilder.
                     createDefault(Config.BOT_TOKEN)
                     .setActivity(Activity.playing(Config.GAME_OF_ACTIVITY))
+                    .addEventListeners(new onReadyDiscord())
                     .addEventListeners(new MemberMessage())
                     .build();
             getServer().getPluginManager().registerEvents(new PlayerDeath(), this);
             getServer().getPluginManager().registerEvents(new PlayerJoin(), this);
             saveConfig();
-            getServer().getPluginManager().registerEvents(new MemberMessage(), this);
+            //getServer().getPluginManager().registerEvents(new MemberMessage(), this);
             getServer().getPluginManager().registerEvents(new PlayerQuit(), this);
             getServer().getPluginManager().registerEvents(new PlayerMessage(), this);
             Bukkit.getLogger().info
@@ -32,5 +33,4 @@ public final class CraftCord extends JavaPlugin implements Listener {
             ("The JDA Integration it could not load correctly, check Config Class and you make sure you have entered a correct token ");
         }
     }
-
 }

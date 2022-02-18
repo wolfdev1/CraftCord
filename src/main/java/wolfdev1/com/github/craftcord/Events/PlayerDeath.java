@@ -7,6 +7,7 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 
 import java.awt.*;
 import java.time.Instant;
+import java.util.Objects;
 
 import static wolfdev1.com.github.craftcord.CraftCord.jda;
 
@@ -21,6 +22,6 @@ public class PlayerDeath implements Listener {
                 .setFooter("Minecraft 1.18.1")
                 .setColor(Color.decode("#ff4747"))
                 ;
-        jda.getTextChannelById("940697475088547870").sendMessageEmbeds(embed.build()).queue();
+        Objects.requireNonNull(jda.getTextChannelById("940697475088547870")).sendMessageEmbeds(embed.build()).queue();
     }
 }
