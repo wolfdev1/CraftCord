@@ -8,6 +8,7 @@ import wolfdev1.com.github.craftcord.Config;
 
 import java.awt.*;
 import java.time.Instant;
+import java.util.Objects;
 
 import static wolfdev1.com.github.craftcord.CraftCord.jda;
 
@@ -22,6 +23,6 @@ public class PlayerMessage implements Listener {
                 .setFooter("Minecraft 1.18.1")
                 .setColor(Color.decode("#94cfff"))
                 ;
-        jda.getTextChannelById(Config.CHANNEL_ID).sendMessageEmbeds(msgEb.build()).queue();
+        Objects.requireNonNull(jda.getTextChannelById(Config.CHANNEL_ID)).sendMessageEmbeds(msgEb.build()).queue();
     }
 }

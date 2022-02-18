@@ -3,7 +3,7 @@ package wolfdev1.com.github.craftcord.Events;
 import net.dv8tion.jda.api.EmbedBuilder;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerJoinEvent;
+import org.bukkit.event.player.PlayerQuitEvent;
 
 import java.awt.*;
 import java.time.Instant;
@@ -12,7 +12,7 @@ import static wolfdev1.com.github.craftcord.CraftCord.jda;
 public class PlayerQuit implements Listener {
 
     @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent event) {
+    public void onPlayerQuit(PlayerQuitEvent event) {
         EmbedBuilder quitEb = new EmbedBuilder()
                 .setAuthor(event.getPlayer().getName(), null, "https://crafatar.com/avatars/" + event.getPlayer().getUniqueId())
                 .setTitle(event.getPlayer().getName() + " has been left the server")
