@@ -1,0 +1,6 @@
+wolfdev1\com\github\spigotdiscordplugin\Events\MemberMessage.class
+wolfdev1\com\github\spigotdiscordplugin\Events\PlayerQuit.class
+wolfdev1\com\github\spigotdiscordplugin\Events\PlayerJoin.class
+wolfdev1\com\github\spigotdiscordplugin\Events\PlayerMessage.class
+wolfdev1\com\github\spigotdiscordplugin\Events\PlayerDeath.class
+wolfdev1\com\github\spigotdiscordplugin\SpigotDiscordPlugin.class
