@@ -1,7 +1,7 @@
-wolfdev1\com\github\spigotdiscordplugin\Events\MemberMessage.class
-wolfdev1\com\github\spigotdiscordplugin\Events\PlayerQuit.class
-wolfdev1\com\github\spigotdiscordplugin\Events\PlayerJoin.class
-wolfdev1\com\github\spigotdiscordplugin\Events\PlayerMessage.class
-wolfdev1\com\github\spigotdiscordplugin\Config.class
-wolfdev1\com\github\spigotdiscordplugin\Events\PlayerDeath.class
-wolfdev1\com\github\spigotdiscordplugin\SpigotDiscordPlugin.class
+wolfdev1\com\github\craftcord\Events\PlayerJoin.class
+wolfdev1\com\github\craftcord\Events\PlayerQuit.class
+wolfdev1\com\github\craftcord\CraftCord.class
+wolfdev1\com\github\craftcord\Config.class
+wolfdev1\com\github\craftcord\Events\PlayerMessage.class
+wolfdev1\com\github\craftcord\Events\MemberMessage.class
+wolfdev1\com\github\craftcord\Events\PlayerDeath.class

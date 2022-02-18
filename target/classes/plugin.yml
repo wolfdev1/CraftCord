@@ -1,6 +1,6 @@
-name: SpigotDiscordPlugin
+name: CraftCord
 version: '1.0-SNAPSHOT'
-main: wolfdev1.com.github.spigotdiscordplugin.SpigotDiscordPlugin
+main: wolfdev1.com.github.craftcord.CraftCord
 api-version: 1.18
 authors: [ wolfdev1 ]
 description: An spigot plugin for connect Discord and Minecraft Chat
