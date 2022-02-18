@@ -2,6 +2,7 @@ wolfdev1\com\github\craftcord\Events\onReadyDiscord.class
 wolfdev1\com\github\craftcord\Events\PlayerJoin.class
 wolfdev1\com\github\craftcord\Events\PlayerQuit.class
 wolfdev1\com\github\craftcord\CraftCord.class
+wolfdev1\com\github\craftcord\Events\PlayerExpChange.class
 wolfdev1\com\github\craftcord\Config.class
 wolfdev1\com\github\craftcord\Events\PlayerMessage.class
 wolfdev1\com\github\craftcord\Events\MemberMessage.class
