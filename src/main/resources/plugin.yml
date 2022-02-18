@@ -1,0 +1,6 @@
+name: SpigotDiscordPlugin
+version: '${project.version}'
+main: wolfdev1.com.github.spigotdiscordplugin.SpigotDiscordPlugin
+api-version: 1.18
+authors: [ wolfdev1 ]
+description: An spigot plugin for connect Discord and Minecraft Chat
